@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shoe</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/shoeslide.css">
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="homepage.html" class="text-gray">ShoeMarkei</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <div class="dropdown">
+                            <span class="dropbtn">Brands</span>
+                                <div class="dropdown-content">
+                                    <a href="jordanpage.html">Jordan</a>
+                                    <a href="nikepage.html">Nike</a>
+                                    <a href="adidaspage.html">Adidas</a>
+                                </div>
+                        </div>      
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Men</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="womenpage.html">Women</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Shop All</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Sneakers</a>
+                    </li>
+                    <li class="nav-link">
+                    	<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+                    	<div id="id01" class="modal">
+  							<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  						<form class="modal-content" action="/action_page.php">
+                            <div class="container">
+                                <h1>Sign Up</h1>
+                                <p>Please fill in this form to create an account.</p>
+                                <hr>
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                                <label for="psw-repeat"><b>Repeat Password</b></label>
+                                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                              
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                                </label>
+
+                                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                                <div class="clearfix">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                    <button type="submit" class="signupbtn">Sign Up</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    </li>	
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <body>
+        <div id="slider">
+            <h3 class= "title"> Retro Jordan 11 Customs</h3>
+            <img src="./assets/jordan11.png" alt= "main image" id="main">
+            <div id= "thumbnails">
+                <img src="./assets/jordan11(1).png" alt="shoe">
+                <img src="./assets/jordan11(2).jpg" alt="shoe">
+                <img src="./assets/jordan11(3).jpg" alt="shoe">
+                <img src="./assets/jordan11(4).jpg" alt="shoe">
+                <img src="./assets/jordan11(5).jpg" alt="shoe">
+            </div>
+    </body>
+<!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer-distributed">
+
+            <div class="footer-left">
+
+                <h3>Shoe<span>Markeri</span></h3>
+
+                <p class="footer-links">
+                    <a href="#" class="link-1">Home</a>
+                    
+                    <a href="#">Blog</a>
+                
+                    <a href="#">Pricing</a>
+                
+                    <a href="aboutpage.html">About</a>
+                    
+                    <a href="#">Faq</a>
+                    
+                    <a href="#">Contact</a>
+                </p>
+
+                <p class="footer-company-name">ShoeMakeri © 2020</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+1.555.555.5555</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">ShoeMakeri@company.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                </p>
+                
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) 
+        {
+            if (event.target == modal) 
+                {
+                    modal.style.display = "none";
+                }
+        }
+    </script>
+
+    <script>
+
+        var thumbnails = document.getElementById("thumbnails");
+        var imgs = thumbnails.getElementByTagName("img");
+        var main = document.getElementById("main");
+        var counter = 0;
+
+        for (let i = 0;i<imgs.length; i++){
+            let img = imgs[i]
+
+            img.addEventListener("click", function(){
+                main.src = this.src
+            })
+        }
+
+    </script>  
+
+</body>
+
+</html>
